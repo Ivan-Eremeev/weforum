@@ -9,3 +9,52 @@
     }
   }
 }
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px 0 12px;
+  border-top: 3px solid #141414;
+  border-bottom: 1px solid #d5e0e8;
+  margin-bottom: 29px;
+  font-size: 31px;
+  white-space: nowrap;
+   &__all-btn {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    &:after {
+      content: '';
+      display: block;
+      width: 8px;
+      height: 15px;
+      margin-left: 5px;
+      margin-top: -5px;
+      background-image: url("data:image/svg+xml,%0A%3Csvg height='15' viewBox='0 0 8 15' width='8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m57.8662516 3.28765349 5.5732313 6.33500004-5.5732313 6.33500007' fill='none' stroke='%23cad7e0' stroke-width='2' transform='translate(-57 -2)'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    span {
+      border-bottom: 2px solid transparent;
+    }
+    &:hover {
+      color: #000;
+      span {
+        border-color: #707070;
+      }
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    padding: 4px 0 8px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    &__all-btn {
+      margin-top: 5px;
+    }
+  }
+}
