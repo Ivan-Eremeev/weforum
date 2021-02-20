@@ -52,9 +52,14 @@ body {
       background-size: contain;
       background-repeat: no-repeat;
     }
+    span {
+      border-bottom: 2px solid transparent;
+    }
     &:hover {
       color: #000;
-      text-decoration: underline;
+      span {
+        border-color: #707070;
+      }
     }
   }
   @include media-breakpoint-down(sm) {

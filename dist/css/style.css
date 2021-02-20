@@ -6426,9 +6426,16 @@ body.lock {
   background-repeat: no-repeat;
 }
 
+.title__all-btn span {
+  border-bottom: 2px solid transparent;
+}
+
 .title__all-btn:hover {
   color: #000;
-  text-decoration: underline;
+}
+
+.title__all-btn:hover span {
+  border-color: #707070;
 }
 
 /* /settings */
