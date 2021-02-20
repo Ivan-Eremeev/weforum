@@ -1,0 +1,11 @@
+.news-section {
+  padding: 32px 0;
+  &__border {
+    border-right: 1px solid #d5e0e8;
+  }
+  @include media-breakpoint-down(lg) {
+    &__border {
+      border: none;
+    }
+  }
+}

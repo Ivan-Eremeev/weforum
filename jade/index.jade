@@ -1,0 +1,103 @@
+extends blocks/base.jade
+
+block title 
+	title Главная
+
+block style-libs
+
+block content
+
+	.container
+
+		// news-section 
+		section.news-section 
+			.title Coronavirus (COVID-19)
+				a(href="#").title__all-btn View all
+			.row
+				.col-12.col-lg-8.news-section__border
+					// article
+					article.article
+						a(href="#")
+							.article__img
+								img(src="img/responsive_small_mxurVEKy-hZgHIFJiQTlH1hQRlphZ-X5sKTyQIQyQWU.jpg", alt="")
+							.article__content 
+								h1.article__title UN economist: We need a post-war playbook for a post-COVID recovery
+								.article__text 
+									span Maximo  Torero  · Project Syndicate
+									time 14 Dec 2020
+					// /article
+					// article
+					article.article
+						a(href="#")
+							.article__img
+								img(src="img/responsive_small_9ICXssm0n2yijmqKGa5OJoFcLCFN_MwbHV1o_M8Pj-k.jpg", alt="")
+							.article__content 
+								h1.article__title COVID-19: 3 important questions about vaccines, answered by an expert
+								.article__text 
+									span Tracy Hussell · The Conversation
+									time 14 Dec 2020
+					// /article
+					// article
+					article.article
+						a(href="#")
+							.article__img
+								img(src="img/responsive_large_hLAV31kAi1d9Q_dHB_BqFIOPu7oBnV5axXqSQm2opnI.jpg", alt="")
+							.article__content 
+								h1.article__title How COVID-19 could make our cities doughnut-shaped
+								.article__text 
+									span Paul  J. Maginn and Philip Hubbard · The Conversation
+									time 14 Dec 2020
+					// /article
+				.col-12.col-lg-4
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title Equal access to COVID-19 vaccines could be worth billions
+							.article-small__text 
+								span Victoria Masterson
+								time 15 Dec 2020
+					//	/article-small
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title COVID-19 shows why we must build trust in digital financial services 
+							.article-small__text 
+								span Leora Klapper
+								time 17 Dec 2020
+					//	/article-small
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title COVID-19: What you need to know about the coronavirus pandemic on 17 December
+							.article-small__text 
+								span Joe Myers
+								time 17 Dec 2020
+					//	/article-small
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title How China pays for its COVID-19 medical bills
+							.article-small__text 
+								span  Meng Ke and Yuxi  Zhang
+								time 14 Dec 2020
+					//	/article-small
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title COVID-19: Most American workers want to keep working from home
+							.article-small__text 
+								span Howard Schneider · Reuters
+								time 17 Dec 2020
+					//	/article-small
+					// article-small
+					article.article-small
+						a(href="#") 
+							h1.article-small__title COVID-19: What you need to know about the coronavirus pandemic on 2 October
+							.article-small__text 
+								span Joe Myers
+								time 02 Oct 2020
+					//	/article-small
+		//	/highlights-section 
+
+block js-libs
+	script(src="js/libs/jquery.min.js")
