@@ -3,12 +3,6 @@
 @include reset(); // Сброс стилей
 
 @import 'bootstrap/bootstrap';
-// Переменные для кастомизации Bootstrap 4
-$grid-gutter-width: 15px; // Отступы между колонками
-$grid-columns: 12; // Колличество колонок
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1410px); // Брэйкпоинты
-$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1400px); // Максимальная ширина контейнера
-$gutter: $grid-gutter-width; // Переменная для задания отступов равных междуколоночным
 
 // Шрифты
 @include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Light", 300, normal);

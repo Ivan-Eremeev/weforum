@@ -10122,12 +10122,6 @@ body.lock {
   }
 }
 
-@media (max-width: 1409.98px) {
-  .news-section__border {
-    border: none;
-  }
-}
-
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     display: block;
@@ -10145,6 +10139,10 @@ body.lock {
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .news-section__border {
+    border: none;
   }
 }
 
