@@ -1,22 +1,22 @@
-@import 'mixins';
+// @import 'mixins';
 
-@include reset(); // Сброс стилей
+// @include reset(); // Сброс стилей
 
-@import 'bootstrap/bootstrap';
+// @import 'bootstrap/bootstrap';
 
-// Шрифты
-@include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Light", 300, normal);
-@include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Roman", normal, normal);
-@include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Medium", 600, normal);
-@include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Bold", 700, normal);
+// // Шрифты
+// @include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Light", 300, normal);
+// @include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Roman", normal, normal);
+// @include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Medium", 600, normal);
+// @include font-face("HelveticaNeue", "../fonts/HelveticaNeue/HelveticaNeueCyr-Bold", 700, normal);
 
 // Цвета
 // $black: #000;
 
 // Подключение файлов
-@import 'blocks/settings';
+// @import 'blocks/settings';
 /* news-section */
 @import 'blocks/news-section';
-@import 'blocks/article';
+@import 'blocks/article-big';
 @import 'blocks/article-small';
 /* /news-section */

@@ -1,4 +1,4 @@
-.article {
+.article-big {
   padding-bottom: 13px;
   &:not(:last-child) {
     border-bottom: 1px solid #d5e0e8;
@@ -8,6 +8,7 @@
     display: flex;
     align-items: flex-start;
     color: #141414;
+    text-decoration: none;
   }
   &__img {
     width: 47%;
@@ -50,17 +51,17 @@
   }
   a {
     &:hover {
-      .article__title {
+      .article-big__title {
         color: #84919c;
       }
-      .article__img {
+      .article-big__img {
         img {
           filter: contrast(.7);
         }
       }
     }
   }
-  @include media-breakpoint-down(sm) {
+  @media (max-width: 768px) {
     &__img {
       width: 35%;
       margin-right: 21px;
